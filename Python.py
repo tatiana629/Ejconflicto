@@ -3,8 +3,9 @@ def nombre_completo():
     b= (input("ingresa tu segundo nombre "))
     c= (input("ingresa tu primer apellido "))
     d= (input("ingresa tu segundo apellido "))
+    e= (input("ingresa tu segundo apellido paterno: "))
 
-    S= a+b+c+d
+    S= a+b+c+d+e
     print ("Nombre completo: ")
 
     return S
